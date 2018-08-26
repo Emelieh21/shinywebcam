@@ -30,3 +30,20 @@ ui <- fluidPage(
 server <- function(input, output){}
 shinyApp(ui,server)
 ```
+
+Launching this shiny app, you'll probably see the following error popping up in the viewer:
+
+![image](assets/normal_error.png)
+
+This is normal. The webcam only works from the browser. Click "OK" and "Open in browser". You should now be asked whether you allow the running shiny app to use your camera:
+
+
+
+![image](assets/in_browser.png)
+
+After allowing, the webcam output should start to show. Pressing the "Take Snapshot" button makes a snapshot appear below.
+
+> To do:
+>
+> * Figure out whether it is possible to move the webcam output/snapshot to different places on the screen
+> * Make it possible to "capture" the snapshot and do something with it in the server
