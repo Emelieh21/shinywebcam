@@ -3,7 +3,7 @@
 _Basic integration of webcamjs into R shiny, to open the webcam, show the webcam output and make snapshots._
 
 ## About Webcamjs
-This package is an integration of [jhuckaby's webcamjs](https://github.com/jhuckaby/webcamjs), an HTML5 Webcam Image Capture Library with Flash Fallback, into R shiny.
+This package is an integration of [jhuckaby's webcamjs](https://github.com/jhuckaby/webcamjs), an HTML5 Webcam Image Capture Library with Flash Fallback.
 
 ## Installation
 To install, run:
